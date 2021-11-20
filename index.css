@@ -1,0 +1,39 @@
+body{
+    Width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav{
+    width:10%;
+}
+
+.icon-bar{
+    background-color: green;
+    margin-left: 0px;
+}
+
+.icon-bar a {
+    display: block;
+    padding: 8px;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 4vw;
+  }
+
+.icon-bar i:hover{
+    color: cyan;
+}
+
+.main{
+    display: block;
+    width:90%;
+    background-color: midnightblue;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    background-color: red;
+}
