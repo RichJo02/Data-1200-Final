@@ -28,12 +28,28 @@ body{
 
 .main{
     display: block;
-    width:90%;
+    width: 90%;
     background-color: midnightblue;
 }
 
-header{
-    position: absolute;
-    top: 0px;
+#header{
+    width: 100%;
+}
+
+#header header{
+    width: 50%;
+    position: relative;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    margin-block-start: 0%;
+    overflow-x: auto;
     background-color: red;
 }
+
+article{
+    width: 100%;
+    background-color: yellow;
+}
+
+
