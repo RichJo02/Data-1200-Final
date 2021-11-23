@@ -1,0 +1,151 @@
+body{
+    color: white;
+    background: #051516;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75vw;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+}
+
+hr{
+    width: 70%;
+    color: black;
+}
+
+header{
+    width:100%;
+    background: #32d5de;
+    text-align: center;
+}
+
+header > img{
+    vertical-align: middle;
+    width: 60%;
+    border-radius: 5px;
+}
+
+header address{
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+nav{
+    position: sticky;
+    left:0px;
+    top:0px;
+    width:100%;
+    margin-top:-8px;
+    background: #32d5de;
+    font-size: 2vw;
+    text-align: center;
+}
+
+nav ul{
+    padding: 1vw;
+    display: inline-block;
+}
+
+nav ul > li{
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(20, 20, 66);
+}
+
+#main{
+    display: flex;
+}
+
+#image{
+    width: 35%;
+    margin: 2.5%;
+    border-radius: 15px;
+    padding: 5%;
+    background:rgb(20, 20, 66);
+    text-align: center;
+    
+}
+
+#image > img{
+    vertical-align: middle;
+    width: 70%;
+    border-radius: 5px;
+}
+
+#info{
+    width: 35%;
+    margin: 2.5%;
+    border-radius: 15px;
+    padding: 5%;
+    background:rgb(20, 20, 66);
+    text-align: center;
+}
+
+#info h1{
+    border:solid;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgb(9, 9, 39);
+}
+
+#info ul{
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+#quotes{
+    display: flex;
+}
+
+#quote1{
+    width:20%;
+    margin: auto;
+    border-radius: 15px;
+    border: solid;
+    padding: 5%;
+    background:rgb(20, 20, 66);
+    text-align: center;
+}
+
+#quote2{
+    width:20%;
+    margin: auto;
+    border-radius: 15px;
+    border: solid;
+    padding: 5%;
+    background:rgb(20, 20, 66);
+    text-align: center;
+}
+
+#contactinfo{
+    width:20%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5%;
+    text-align: center;
+}
+
+#contactinfo p{
+    font-size: 1.25vw;
+}
