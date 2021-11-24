@@ -5,6 +5,18 @@ body{
     flex-wrap: wrap;
 }
 
+h1{
+    font-size: 2vw;
+}
+
+h2{
+    font-size: 1.75vw;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
 .nav{
     width:10%;
 }
@@ -56,7 +68,7 @@ body{
 
 .icon-bar{
     margin-left: 0px;
-    width: max-content;
+    width: 100%;
     background-color: green;
 }
 
@@ -94,6 +106,7 @@ body{
     overflow-x: auto;
     background-color: red;
 }
+
 
 article{
     width: 100%;
