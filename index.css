@@ -19,6 +19,7 @@ p{
 
 .nav{
     width:10%;
+    background-color: orange;
 }
 
 .nav img{
@@ -69,7 +70,7 @@ p{
 .icon-bar{
     margin-left: 0px;
     width: 100%;
-    background-color: green;
+    background-color: orange;
 }
 
 .icon-bar a {
@@ -94,6 +95,7 @@ p{
 
 #header{
     width: 100%;
+    background-color: white;
 }
 
 #header header{
@@ -109,7 +111,8 @@ p{
 
 
 article{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     background-color: yellow;
 }
 

@@ -10,16 +10,35 @@
 </head>
 <body>
     <div class="nav">
-
         <a href="index.html"><img alt="Graduation Cap" src="Images/graduation-cap-45659.png"></a>
 
-        <nav class="icon-bar">
-            <a href="index.html"><i class="fas fa-bars"></i> Menu</a>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="index.html"><i class="fas fa-home"></i> Home</a>
             <a href="reflection.html"><i class="fa fa-search"></i> Reflection-essay</a>
             <a href="accessibility.html"><i class="fa fa-universal-access"></i> Accessibility</a>
-            <a href="info.html"><i class="fa fa-info-circle"></i> Topical information</a>
-            <a href="fun.html"><i class="fa fa-rocket"></i> Fun</a>
+            <a href="info.html"><i class="fa fa-info-circle"></i> Topical Information</a>
+            <a href="fun.html"><i class="fa fa-rocket"></i> Fun page</a>
+        </div>
+          
+        <span style="font-size: 4vw;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"> Menu</i></span>
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+
+        <nav class="icon-bar">
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <a href="reflection.html"><i class="fa fa-search"></i></a>
+            <a href="accessibility.html"><i class="fa fa-universal-access"></i></a>
+            <a href="info.html"><i class="fa fa-info-circle"></i></a>
+            <a href="fun.html"><i class="fa fa-rocket"></i></a>
         </nav>
     </div>
     
@@ -31,11 +50,11 @@
         </div>
 
         <article>
-            <h1>hei</h1>
-
-            <h2>the return of the hei</h2>
-
-            <h2>hei pt.2</h2>
+            <h1>Filler Title</h1>
+            <p>Filler Text</p>
+            <h2>Filler Subtitle</h2>
+            <p>Filler Text</p>
+            <h2>Filler Subtitle</h2>
         </article>
         
         
