@@ -17,6 +17,7 @@ body{
 .icon-bar{
     margin-left: 0px;
     width: max-content;
+    background-color: green;
 }
 
 .icon-bar a {
