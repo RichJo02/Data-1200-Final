@@ -3,14 +3,18 @@ body{
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 .nav{
     width:10%;
 }
 
+.nav img{
+    width: 100%;
+}
+
 .icon-bar{
-    background-color: green;
     margin-left: 0px;
     width: max-content;
 }
