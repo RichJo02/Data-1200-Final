@@ -12,6 +12,7 @@ body{
 .icon-bar{
     background-color: green;
     margin-left: 0px;
+    width: max-content;
 }
 
 .icon-bar a {
@@ -24,11 +25,13 @@ body{
 
 .icon-bar i:hover{
     color: cyan;
+
 }
 
 .main{
     display: block;
     width: 90%;
+    margin-left: auto;
     background-color: midnightblue;
 }
 
