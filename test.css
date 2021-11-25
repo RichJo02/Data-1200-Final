@@ -47,7 +47,7 @@ img{
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
     padding-top: 60px;
     text-align:center;
 }
@@ -63,6 +63,10 @@ img{
   
 .sidenav a:hover{
     color: #f1f1f1;
+}
+
+.sidenav img{
+    width:75px;
 }
 
 .sidenav .closebtn {

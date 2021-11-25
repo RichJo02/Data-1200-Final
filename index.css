@@ -1,3 +1,7 @@
+*{
+    font-size: 24px;
+}
+
 body{
     Width: 100%;
     margin: 0px;
@@ -6,18 +10,17 @@ body{
 }
 
 h1{
-    font-size: 2vw;
+    font-size: 4rem;
 }
 
 h2{
     text-align: center;
-    font-size: 1.75vw;
+    font-size: 2.2rem;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 p{
-    font-size: 1.5vw;
     padding: 12px 40px 12px 40px;
     line-height: 1.6;
 }
@@ -91,10 +94,15 @@ hr{
 }
 
 span i{
-    font-size: 2vw;
+    font-size: 1.75vw;
+    margin: auto;
     color: white;
     padding: 8px;
     cursor: pointer;
+}
+
+span i:hover{
+    color: midnightblue;
 }
 
 .icon-bar{
@@ -103,15 +111,17 @@ span i{
 
 .icon-bar a {
     display: block;
-    padding: 8px;
+    padding: 16px;
     transition: all 0.2s ease;
     color: white;
-    font-size: 5vw;
-    text-align: center;
   }
 
+.icon-bar i{
+    font-size: 4vw;
+}
+
 .icon-bar i:hover{
-    color: cyan;
+    color: midnightblue;
 }
 
 .main{
@@ -159,3 +169,14 @@ article img{
     width: 100%;
 }
 
+@media screen and (max-width: 960px){
+    *{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    *{
+        font-size: 14px;
+    }
+}
