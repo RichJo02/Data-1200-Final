@@ -21,6 +21,10 @@ header nav{
 
 header div{
     width: 60%;
+    background: url("Images/osloMet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header div h1{
@@ -32,6 +36,7 @@ header div h1{
 
 img{
     width: 15vw;
+    padding-top: 15px;
 }
 
 .sidenav {
@@ -79,12 +84,12 @@ img{
       font-size: 4vw;
   }
 
-  main{
-      width: 95%;
-      margin: auto;
+  .icon-bar{
+    visibility: collapse;
   }
 
-  img{
+  main{
+      width: 95%;
       margin: auto;
   }
 
