@@ -11,10 +11,12 @@ h1{
 
 h2{
     font-size: 1.75vw;
+    padding: 10px 20px 10px 20px;
 }
 
 p{
     font-size: 1.5vw;
+    padding: 5px 10px 5px 10px;
 }
 
 .nav{
