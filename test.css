@@ -81,6 +81,7 @@ img{
 
   span i{
       font-size: 4vw;
+      cursor: pointer;
   }
 
   .icon-bar{
