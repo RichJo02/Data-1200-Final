@@ -171,7 +171,7 @@ article img{
 
 @media screen and (max-width: 960px){
     *{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #header header{
@@ -181,7 +181,7 @@ article img{
 
 @media screen and (max-width: 600px){
     *{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #header header{
