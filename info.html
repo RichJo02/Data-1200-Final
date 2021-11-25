@@ -10,36 +10,39 @@
 </head>
 <body>
     <div class="nav">
-        <a href="index.html"><img alt="Graduation Cap" src="Images/graduation-cap-45659.png"></a>
+        <div id="sticky">
+            <a href="index.html"><img alt="Graduation Cap" src="Images/graduation-cap-45659.png"></a>
 
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-            <a href="reflection.html"><i class="fa fa-search"></i> Reflection-essay</a>
-            <a href="accessibility.html"><i class="fa fa-universal-access"></i> Accessibility</a>
-            <a href="info.html"><i class="fa fa-info-circle"></i> Topical Information</a>
-            <a href="fun.html"><i class="fa fa-rocket"></i> Fun page</a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="reflection.html"><i class="fa fa-search"></i> Reflection-essay</a>
+                <a href="accessibility.html"><i class="fa fa-universal-access"></i> Accessibility</a>
+                <a href="info.html"><i class="fa fa-info-circle"></i> Topical Information</a>
+                <a href="fun.html"><i class="fa fa-rocket"></i> Fun page</a>
+            </div>
+            
+            <span style="font-size: 4vw;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"> Menu</i></span>
+            
+            <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+
+            <nav class="icon-bar">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+                <a href="reflection.html"><i class="fa fa-search"></i></a>
+                <a href="accessibility.html"><i class="fa fa-universal-access"></i></a>
+                <a href="info.html"><i class="fa fa-info-circle"></i></a>
+                <a href="fun.html"><i class="fa fa-rocket"></i></a>
+            </nav>
         </div>
-          
-        <span style="font-size: 4vw;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"> Menu</i></span>
-          
-        <script>
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
-
-        <nav class="icon-bar">
-            <a href="index.html"><i class="fas fa-home"></i></a>
-            <a href="reflection.html"><i class="fa fa-search"></i></a>
-            <a href="accessibility.html"><i class="fa fa-universal-access"></i></a>
-            <a href="info.html"><i class="fa fa-info-circle"></i></a>
-            <a href="fun.html"><i class="fa fa-rocket"></i></a>
-        </nav>
+        
     </div>
     
     <div class="main">
@@ -50,16 +53,33 @@
         </div>
 
         <article>
-            <h1>Universal design in Technology</h1>
-            <p>In our thoughts universal design is something sought after by the public but held back by companies because of the profitability. It is hard to make something everyone agrees is the best solution to a problem, but there are exceptions to that. 
-
+            <h2>Universal design in Technology</h2>
+            <p>
+                In our thoughts universal design is something sought after by the public but held back by companies because of the profitability. 
+                It is hard to make something everyone agrees is the best solution to a problem, but there are exceptions to that.
             </p>
-            <p>Yes, even the USA uses metric also known as the SI-units. The proof of this you can find here: https://www.nist.gov/pml/weights-and-measures/metric-si/metric-policy.  By law they have signed the official metrication of legislation, though it is not a required conversion to companies. Everything about it makes all our lives easier. The fact that my room is let's say 125cm and I can go to a carpenter and say I want a 125 cm table, instead of having to convert it to other units and maybe mess up the measurements in the conversion. 
-
-                Something that we think people might take for granted is rollable shelfs on dishwashers. It was protected by a patent once, but when it was made public, every manufacturer started to use it in their dishwashers. We use it every time we wash dishes meaning almost every day, just imagining having to stretch your hand all the way inn seems like a grueling task. You also have companies like Tesla that made their patents available for the public which is what many companies should follow so that we can develop more amazing things together instead of limiting each other. The Tesla patents you can find here: https://www.tesla.com/blog/all-our-patent-are-belong-you. 
-                 
-                We think time is the most used technologic invention, and one of the first. Imagine if a day was divided in 7.5/15 instead of 12/24 hours, if we were to have different time systems, we believe the world would be in much more chaos. Just the fact that the whole world uses the same time system is reassuring when traveling, going to event, and meeting up on time. The world uses the UTC time standard and you can find more info on it here: https://www.timeanddate.com/time/aboututc.html. 
-                </p>
+            <p>
+                Yes, even the USA uses metric also known as the SI-units.
+                The proof of this you can find here: 
+                <a href="https://www.nist.gov/pml/weights-and-measures/metric-si/metric-policy">nist.gov</a>. 
+                By law they have signed the official metrication of legislation, though it is not a required conversion to companies. 
+                Everything about it makes all our lives easier. The fact that my room is let's say 125cm and I can go to a carpenter and 
+                say I want a 125 cm table, instead of having to convert it to other units and maybe mess up the measurements in the conversion. 
+            </br>
+                Something that we think people might take for granted is rollable shelfs on dishwashers. 
+                It was protected by a patent once, but when it was made public, every manufacturer started to use it in their dishwashers. 
+                We use it every time we wash dishes meaning almost every day, just imagining having to stretch your hand all the way inn 
+                seems like a grueling task. You also have companies like Tesla that made their patents available for the public which is what 
+                many companies should follow so that we can develop more amazing things together instead of limiting each other. 
+                The Tesla patents you can find here: <a href="https://www.tesla.com/blog/all-our-patent-are-belong-you">tesla.com</a>.
+            </br>
+                We think time is the most used technologic invention, and one of the first. 
+                Imagine if a day was divided in 7.5/15 instead of 12/24 hours, if we were to have different time systems, 
+                we believe the world would be in much more chaos. 
+                Just the fact that the whole world uses the same time system is reassuring when traveling, going to event, and meeting up on time. 
+                The world uses the UTC time standard and you can find more info on it here: 
+                <a href="https://www.timeanddate.com/time/aboututc.html">timeanddate.com</a>.
+            </p>
             <h2>Filler Subtitle</h2>
 
             <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
