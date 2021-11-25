@@ -7,7 +7,6 @@ body{
     font-family: Lato, sans-serif;
     margin: 0px;
     font-size: 1.2rem;
-    background-color: orange;
 }
 
 header{
@@ -21,7 +20,7 @@ header nav{
 
 header div{
     width: 60%;
-    background: url("Images/osloMet.jpg");
+    background: url("Images/Oslomet.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
