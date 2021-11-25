@@ -18,7 +18,7 @@ header nav{
     width: 40%;
 }
 
-header div{
+header #mainTitle{
     width: 60%;
     background: url("Images/Oslomet.png");
     background-position: center;
@@ -50,50 +50,49 @@ img{
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
-  }
+}
   
-  .sidenav a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+}
   
-  }
-  
-  .sidenav a:hover{
+.sidenav a:hover{
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+}
 
-  span i{
-      font-size: 4vw;
-      cursor: pointer;
-  }
+span i{
+    font-size: 4vw;
+    cursor: pointer;
+}
 
-  .icon-bar{
+.icon-bar{
     visibility: collapse;
-  }
+}
 
-  main{
-      width: 95%;
-      margin: auto;
-  }
+main{
+    width: 95%;
+    margin: auto;
+}
 
-  article{
+article{
     width: 100%;
     background-color: midnightblue;
 }
