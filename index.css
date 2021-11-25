@@ -37,7 +37,6 @@ p{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    text-align:center;
 }
 
 .sidenav a {
@@ -51,6 +50,15 @@ p{
 
 .sidenav a:hover{
     color: #f1f1f1;
+}
+
+.sidenav #image{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sidenav img{
+    width: 75px;
 }
 
 .sidenav .closebtn {
