@@ -190,6 +190,11 @@ article img{
         text-align-last: center;
     }
 
+    #welcomePage{
+        text-align: justify;
+        text-align-last: center;
+    }
+
     #header header{
         width: 70%;
         margin-left: 30%;
