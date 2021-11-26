@@ -88,7 +88,7 @@ nav a:hover{
 
 #image1 img{
     vertical-align: middle;
-    width: 75%;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -119,7 +119,7 @@ nav a:hover{
 
 #image2 img{
     vertical-align: middle;
-    width: 75%;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -139,28 +139,18 @@ nav a:hover{
     background: rgb(9, 9, 39);
 }
 
-#quotes{
-    display: flex;
-}
-
-#quote1{
-    width:20%;
+#video{
+    width: 70%;
     margin: auto;
     border-radius: 15px;
     border: solid;
     padding: 5%;
-    background:rgb(20, 20, 66);
+    background:#549cd6;
     text-align: center;
 }
 
-#quote2{
-    width:20%;
-    margin: auto;
-    border-radius: 15px;
-    border: solid;
-    padding: 5%;
-    background:rgb(20, 20, 66);
-    text-align: center;
+#video video{
+    width: 80%;
 }
 
 #contactinfo{
@@ -169,6 +159,7 @@ nav a:hover{
     border-radius: 15px;
     padding: 5%;
     text-align: center;
+    color: black;
 }
 
 #contactinfo p{

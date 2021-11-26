@@ -7,6 +7,20 @@
     <script src="https://kit.fontawesome.com/1a5c2312e4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <title>Topical-information</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet"> 
+  <!-- MiniPreview stuff here -->
+  <link href="./jquery.minipreview.css" rel="stylesheet">
+  <script src="./jquery.minipreview.js"></script>
+  <script type="text/javascript">
+    $(function() {
+                $('#hover a').miniPreview({ prefetch: 'pageload' });
+                $('#articlePushdown a').miniPreview({ prefetch: 'pageload' });
+            });
+  </script> <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+
 </head>
 <body>
     <div class="nav">
@@ -53,7 +67,7 @@
             </header>
         </div>
 
-        <article id="hei">
+        <article id="articlePushdown">
             <h2>Universal design in Technology</h2>
             <hr>
             <p>
@@ -85,7 +99,7 @@
         
         <img alt="Universal Design" src="Images/PrincipleUniversalDesign.jpg">
 
-        <article>
+        <article id="hover">
             <h2>The Concept of Universal Design</h2>
             <hr>
             <p>
@@ -103,7 +117,7 @@
     
         <img alt="Concept of Universal Design" src="Images/universalDesignConcept.jpg">
 
-        <article>
+        <article id="hover">
             <h2>The Importance of Universal Design</h2>
             <hr>
             <p>

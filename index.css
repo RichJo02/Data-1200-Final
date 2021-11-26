@@ -190,7 +190,7 @@ article img{
     text-align: center;
 }
 
-#hei{
+#articlePushdown{
     padding-top: 96px;
 }
 
@@ -198,7 +198,6 @@ article img{
     display: block;
     width: 25%;
     margin: auto;
-    
 }
 
 @media screen and (max-width: 960px){
