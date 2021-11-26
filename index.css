@@ -32,7 +32,7 @@ hr{
 }
 
 .nav{
-    width:15%;
+    width:14%;
     background-image: linear-gradient(135deg, rgb(255, 166, 0) 0%, rgb(241, 189, 91) 100%);
 }
 
@@ -96,18 +96,21 @@ hr{
     .sidenav a {font-size: 18px;}
 }
 
-span{
-    margin: auto;
+
+#navclick{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
 }
 
-span i{
-    font-size: 25px;
+#navclick i{
+    font-size: 24px;
     color: white;
-    padding-left: 10px;
     cursor: pointer;
 }
 
-span i:hover{
+#navclick i:hover{
     color: midnightblue;
 }
 
@@ -138,7 +141,7 @@ span i:hover{
 
 .main{
     display: block;
-    width: 85%;
+    width: 86%;
     margin-left: auto;
 }
 
@@ -189,9 +192,8 @@ article img{
         font-size: 18px;
     }
 
-    span i{
-        font-size: 20px;
-        text-align: center;
+    #navclick i{
+        font-size: 18px;
     }
 
     .icon-bar a{
@@ -212,21 +214,6 @@ article img{
     *{
         font-size: 16px;
     }
-    
-    article{
-        text-align: justify;
-        text-align-last: center;
-    }
-
-    #welcomePage{
-        text-align: justify;
-        text-align-last: center;
-    }
-
-    #header header{
-        width: 70%;
-        padding: 47% 15% 0 15%;
-    }
 
     .nav{
         width: 0;
@@ -236,7 +223,7 @@ article img{
         width: 70px;
     }
 
-    span i{
+    #navclick i{
         position: fixed;
         bottom: 5px;
         font-size: 6vw;
@@ -250,7 +237,7 @@ article img{
         opacity: 70%;
     }
     
-    span i:hover{
+    #navclick i:hover{
         color: midnightblue;
         opacity: 100%;
     }
@@ -268,5 +255,20 @@ article img{
     .main{
         width: 100%;
         padding-bottom: 30px;
+    }
+
+    article{
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    #welcomePage{
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    #header header{
+        width: 70%;
+        padding: 47% 15% 0 15%;
     }
 }
