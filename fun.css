@@ -1,6 +1,5 @@
 body{
     color: white;
-    background: #051516;
     margin: 0px;
 }
 
@@ -47,7 +46,7 @@ nav{
     top:0px;
     width:100%;
     margin-top:-8px;
-    background: #32d5de;
+    background: #549cd6;
     font-size: 2vw;
     text-align: center;
 }
@@ -75,44 +74,69 @@ nav a:hover{
 
 .main{
     display: flex;
+    flex-wrap: wrap;
 }
 
-#image{
+#image1{
     width: 35%;
-    margin: 2.5%;
+    margin: 2%;
     border-radius: 15px;
     padding: 5%;
-    background:rgb(20, 20, 66);
+    background: rgb(0 31 54);
     text-align: center;
-    
 }
 
-#image > img{
+#image1 img{
     vertical-align: middle;
-    width: 70%;
+    width: 75%;
     border-radius: 5px;
-    padding: 20px;
 }
 
-#info{
+#info1{
     width: 35%;
-    margin: 2.5%;
+    margin: 2%;
     border-radius: 15px;
     padding: 5%;
-    background:rgb(20, 20, 66);
+    background: rgb(0 31 54);
     text-align: center;
 }
 
-#info h1{
+#info1 h1{
     border:solid;
     border-radius: 5px;
     padding: 20px;
     background: rgb(9, 9, 39);
 }
 
-#info ul{
-    text-align: left;
-    font-size: 1.5vw;
+#image2{
+    width: 35%;
+    margin: 2%;
+    border-radius: 15px;
+    padding: 5%;
+    background: rgb(9 130 147);
+    text-align: center;
+}
+
+#image2 img{
+    vertical-align: middle;
+    width: 75%;
+    border-radius: 5px;
+}
+
+#info2{
+    width: 35%;
+    margin: 2%;
+    border-radius: 15px;
+    padding: 5%;
+    background: rgb(9 130 147);
+    text-align: center;
+}
+
+#info2 h1{
+    border:solid;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgb(9, 9, 39);
 }
 
 #quotes{
