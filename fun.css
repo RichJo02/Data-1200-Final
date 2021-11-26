@@ -26,7 +26,7 @@ hr{
 
 header{
     width:100%;
-    background: #32d5de;
+    background: #549cd6;
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ nav a:hover{
     background-color: rgb(20, 20, 66);
 }
 
-#main{
+.main{
     display: flex;
 }
 
@@ -91,6 +91,7 @@ nav a:hover{
     vertical-align: middle;
     width: 70%;
     border-radius: 5px;
+    padding: 20px;
 }
 
 #info{
