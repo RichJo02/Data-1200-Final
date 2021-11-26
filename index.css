@@ -1,3 +1,4 @@
+/*main page adjusted for desktop*/
 *{
     font-size: 24px;
 }
@@ -7,6 +8,7 @@ body{
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -97,7 +99,7 @@ hr{
     font-size: 36px;
     margin-left: 50px;
 }
-
+/* media screen for nav bar in case of low max px height*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -168,7 +170,7 @@ hr{
 #header header{
     width: 65%;
     position: static;
-    padding: 24% 10% 0 10%;
+    padding: 18% 10% 0 10%;
     margin: auto;
     text-align: center;
     margin-block-start: 0%;
@@ -198,7 +200,7 @@ article img{
     width: 25%;
     margin: auto;
 }
-
+/* media screen for tablet*/
 @media screen and (max-width: 960px){
     *{
         font-size: 18px;
@@ -217,11 +219,11 @@ article img{
     }
 
     #header header{
-        width: 75%;
+        width: 80%;
         padding: 37% 5% 0 5%;
     }
 }
-
+/* media screen for phone*/
 @media screen and (max-width: 600px){
     *{
         font-size: 16px;
@@ -280,7 +282,7 @@ article img{
     }
 
     #header header{
-        width: 70%;
+        width: 75%;
         padding: 47% 15% 0 15%;
     }
 }
