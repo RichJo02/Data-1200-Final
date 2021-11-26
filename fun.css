@@ -1,21 +1,30 @@
+*{
+    font-size: 24px;
+}
+
 body{
+    width:100%;
     color: white;
     margin: 0px;
 }
 
 h1{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 3rem;
 }
 
 h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.75vw;
+    font-size: 2.2rem;
+}
+
+h3{
+    font-size: 1.5rem;
 }
 
 p{
     font-family: 'Playfair Display', serif;
-    font-size: 1.5vw;
+    line-height: 1.6;
 }
 
 hr{
@@ -32,7 +41,6 @@ header{
 header > img{
     vertical-align: middle;
     width: 60%;
-    border-radius: 5px;
 }
 
 header address{
@@ -80,7 +88,6 @@ nav a:hover{
 #image1{
     width: 35%;
     margin: 2%;
-    border-radius: 15px;
     padding: 5%;
     background: rgb(0 31 54);
     text-align: center;
@@ -89,13 +96,11 @@ nav a:hover{
 #image1 img{
     vertical-align: middle;
     width: 100%;
-    border-radius: 5px;
 }
 
 #info1{
     width: 35%;
     margin: 2%;
-    border-radius: 15px;
     padding: 5%;
     background: rgb(0 31 54);
     text-align: center;
@@ -103,7 +108,6 @@ nav a:hover{
 
 #info1 h1{
     border:solid;
-    border-radius: 5px;
     padding: 20px;
     background: rgb(9, 9, 39);
 }
@@ -111,7 +115,6 @@ nav a:hover{
 #image2{
     width: 35%;
     margin: 2%;
-    border-radius: 15px;
     padding: 5%;
     background: rgb(9 130 147);
     text-align: center;
@@ -120,13 +123,11 @@ nav a:hover{
 #image2 img{
     vertical-align: middle;
     width: 100%;
-    border-radius: 5px;
 }
 
 #info2{
     width: 35%;
     margin: 2%;
-    border-radius: 15px;
     padding: 5%;
     background: rgb(9 130 147);
     text-align: center;
@@ -134,7 +135,6 @@ nav a:hover{
 
 #info2 h1{
     border:solid;
-    border-radius: 5px;
     padding: 20px;
     background: rgb(9, 9, 39);
 }
@@ -142,7 +142,6 @@ nav a:hover{
 #video{
     width: 70%;
     margin: auto;
-    border-radius: 15px;
     border: solid;
     padding: 5%;
     background:#549cd6;
@@ -156,7 +155,6 @@ nav a:hover{
 #contactinfo{
     width:20%;
     margin: auto;
-    border-radius: 15px;
     padding: 5%;
     text-align: center;
     color: black;
@@ -164,4 +162,40 @@ nav a:hover{
 
 #contactinfo p{
     font-size: 1.25vw;
+}
+
+@media screen and (max-width: 960px){
+    *{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    *{
+        font-size: 16px;
+    }
+
+    .main{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    #image1{
+        width: 100%;
+
+    }
+
+    #info1{
+        width: 100%;
+    }
+
+    #image2{
+        width: 100%;
+    }
+
+    #info2{
+        width: 100%;
+    }
 }
