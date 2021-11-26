@@ -179,6 +179,11 @@ article img{
     *{
         font-size: 16px;
     }
+    
+    article{
+        text-align: justify;
+        text-align-last: center;
+    }
 
     #header header{
         width: 70%;
