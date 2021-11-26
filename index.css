@@ -187,6 +187,13 @@ article img{
     padding-top: 96px;
 }
 
+.main #logo{
+    display: block;
+    width: 25%;
+    margin: auto;
+    
+}
+
 @media screen and (max-width: 960px){
     *{
         font-size: 18px;
