@@ -112,11 +112,16 @@ span i:hover{
 
 .icon-bar a {
     display: block;
-    padding: 16px;
-    transition: all 0.2s ease;
+    padding-bottom: 10px;
+    font-size: 2.5vw;
     color: white;
     text-align: center;
+    text-decoration: none;
   }
+
+.icon-bar a:hover{
+    color: midnightblue;
+}
 
 .icon-bar i{
     font-size: 4vw;
@@ -240,12 +245,15 @@ article img{
         color: midnightblue;
         opacity: 100%;
     }
-/*
-    .icon-bar{
-        visibility: collapse;
-    }
-*/
+
     .icon-bar a{
+        visibility: hidden;
+
+    }
+
+    .icon-bar i{
+        visibility: visible;
+        padding-left: 16px;
         color: gold;
     }
     .main{
