@@ -11,6 +11,8 @@ body{
 
 h1{
     font-size: 3rem;
+    background-color:rgb(255, 166, 0);
+    padding: 24px;
 }
 
 h2{
@@ -152,13 +154,9 @@ span i:hover{
 
 #header header{
     width: 65%;
-    position: absolute;
-    top: 33%;
-    left: 24%;
-    right: 24%;
-    background-color: rgb(255, 166, 0);
+    position: static;
+    padding: 24% 10% 0 10%;
     margin: auto;
-    padding: 12px;
     text-align: center;
     margin-block-start: 0%;
     overflow-x: auto;
@@ -168,7 +166,6 @@ span i:hover{
 article{
     width: 90%;
     margin: 5%;
-    background-color: white;
 }
 
 article img{
@@ -191,9 +188,7 @@ article img{
 
     #header header{
         width: 75%;
-        top: 37%;
-        left: 18.5%;
-        right: 18.5%;
+        padding: 37% 5% 0 5%;
     }
 }
 
@@ -214,9 +209,7 @@ article img{
 
     #header header{
         width: 70%;
-        top: 38.5%;
-        left: 1.5%;
-        right: 1.5%;
+        padding: 47% 15% 0 15%;
     }
 
     .nav{
