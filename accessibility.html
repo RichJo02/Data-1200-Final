@@ -7,6 +7,19 @@
     <script src="https://kit.fontawesome.com/1a5c2312e4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <title>Accessibility</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet"> 
+     <!-- MiniPreview stuff here -->
+     <link href="./jquery.minipreview.css" rel="stylesheet">
+     <script src="./jquery.minipreview.js"></script>
+     <script type="text/javascript">
+       $(function() {
+                   $('#articlePushdown a').miniPreview({ prefetch: 'pageload' });
+               });
+     </script> <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+
 </head>
 <body>
     <div class="nav">
@@ -54,10 +67,38 @@
 
         <article id="articlePushdown">
             <h2>Filler SubTitle</h2>
-            <p>Filler Text</p>
-            <h2>Filler Subtitle</h2>
-            <p>Filler Text</p>
-            <h2>Filler Subtitle</h2>
+            <hr>
+            <p>
+                Our focus of this website was that it should be usable to most if not all people. We have a clear design that is easy to read. 
+                Having said that, during our production and development of coding, we used automated accessibility test to further improve 
+                our code. The ones we found most helpful where: <a href="https://www.webaccessibility.com/">webaccessibility.com</a>", 
+                <a href="https://audit.deque.com/summary">audit.deque.com</a>, but definitely the most useful was 
+                <a href="https://wave.webaim.org/report#/https://richjo02.github.io/Data-1200-Final/reflection.html">wave.webaim.org</a>. 
+                The reason is that it gave us guidelines to what we were doing right and what we were doing wrong. You can see in the 
+                information page that the topic of universal design (from data1100) had a lot of people with different challenges, since we 
+                started with that page it was easier to define what needed to be done. 
+            </p>
+            <p>
+                A lot of thought went into the choosing the color theme of the website. We needed it to be a bright contrast so those with 
+                low vision could clearly tell it apart. We chose colors of the opposite site of the spectrum and checked with the color 
+                blindness’s. we needed colors that could easily be defined and not hard on the eyes in dark room, or those sensitive to 
+                burned eyes. We also needed the color to keep the site feeling fresh and stylish. With all those thoughts and through the 
+                research we did, we came to the conclusion of a type of bright orange. Orange is a color we chose because it is very friendly 
+                towards vision affected illnesses like color blind and bad vision. The buttons in the nav are very large because of old people 
+                and people with slow mental function. This will make it easier to use them.
+            </p>
+            <p>
+                We need the website to be accessible by those who are blind. To front that we tested it with a screen reader and added 
+                a description text to all photos and icons. This will make it readable for those who are blind, those who require voice 
+                to text and all the others affected by it. 
+            </p>
+            <p>
+                The design is really simple and straight forward. This leaves little room for error and makes it impossible to do something 
+                that will ruin the website. The design is fresh and clean, with little room for user error. The main page navigation is very 
+                easy to understand. There are no fancy graphics or animation. And when I mean no fancy graphics, I mean it, no gradients, 
+                no dropshadows, no shadows, no textures, no frames. The colors focus on readability, eye strain, color blindness and so on. 
+                The site is a little boring, but it doesn't look dull, because the focus is that everyone can access it to read/hear it.
+            </p>
         </article>
         
         <img id="logo" alt="OsloMet Logo" src="Images/osloMetLogoSvart.png">
